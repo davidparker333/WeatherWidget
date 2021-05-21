@@ -1,8 +1,8 @@
 let map;
 let lat;
 let lng;
-let openWeatherKey = '780b6e75eb1701551ae825067fd06e9c';
-let timeZoneKey = 'D661UEQ45D48';
+let openWeatherKey = 'OPEN_WEATHER_API_KEY';
+let timeZoneKey = 'TIME_ZONE_API_KEY';
 
 /**
  * This function is called by an onload() event on the body html tag.
