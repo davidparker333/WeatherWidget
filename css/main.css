@@ -1,0 +1,16 @@
+.tall {
+    height: 100vh;
+}
+
+h5 {
+    display: inline;
+}
+
+#map {
+    width: 100%;
+    height: 250px;
+}
+
+#card {
+    background-color: lightgray;
+}

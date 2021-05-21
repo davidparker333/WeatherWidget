@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<link rel="stylesheet" href="css/main.css">
+<title>WeatherWidget</title>
+</head>
+<body onload=initCoords()>
+
+<div class="container tall">
+
+    <div class="row tall d-flex flex-row justify-content-center">
+
+        <div class="col-4 d-flex flex-row justify-content-center align-items-center">
+            <div class="card" style="width: 30rem;" id="card">
+                <div id="map"></div>
+                <div class="card-body row">
+                    <div class="col-9">
+                        <h5 class="card-title my-3" id="temp"></h5>
+                        <p class="card-text my-1" id="time"></p>
+                        <p class="card-text" id="weather"></p>
+                    </div>
+                    <div class="col-3">
+                        <div class="card-img-top" id="weather-icon"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="js/main.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCXPFp5Jks8SNd4lS1BdoVYRgqA6KB48bk&callback=initMap&libraries=&v=weekly"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
+</body>
+</html>
